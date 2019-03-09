@@ -12,6 +12,11 @@
 		7119810B223358750024CA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71198109223358750024CA33 /* Main.storyboard */; };
 		7119810D223358770024CA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7119810C223358770024CA33 /* Assets.xcassets */; };
 		71198110223358770024CA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7119810E223358770024CA33 /* LaunchScreen.storyboard */; };
+		71198119223359CB0024CA33 /* AppleMusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71198117223359CB0024CA33 /* AppleMusicTableViewCell.swift */; };
+		7119811A223359CB0024CA33 /* AppleMusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71198118223359CB0024CA33 /* AppleMusicTableViewCell.xib */; };
+		7119811D22335A8C0024CA33 /* AppleMusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119811B22335A8C0024CA33 /* AppleMusicCollectionViewCell.swift */; };
+		7119811E22335A8C0024CA33 /* AppleMusicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7119811C22335A8C0024CA33 /* AppleMusicCollectionViewCell.xib */; };
+		7119812022335F1F0024CA33 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7119811F22335F1E0024CA33 /* back.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		7119810C223358770024CA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7119810F223358770024CA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71198111223358770024CA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71198117223359CB0024CA33 /* AppleMusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicTableViewCell.swift; sourceTree = "<group>"; };
+		71198118223359CB0024CA33 /* AppleMusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppleMusicTableViewCell.xib; sourceTree = "<group>"; };
+		7119811B22335A8C0024CA33 /* AppleMusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		7119811C22335A8C0024CA33 /* AppleMusicCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppleMusicCollectionViewCell.xib; sourceTree = "<group>"; };
+		7119811F22335F1E0024CA33 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		71198104223358750024CA33 /* iTunesMusic */ = {
 			isa = PBXGroup;
 			children = (
+				7119811F22335F1E0024CA33 /* back.jpg */,
 				71198105223358750024CA33 /* AppDelegate.swift */,
 				71198107223358750024CA33 /* ViewController.swift */,
 				71198109223358750024CA33 /* Main.storyboard */,
+				71198117223359CB0024CA33 /* AppleMusicTableViewCell.swift */,
+				71198118223359CB0024CA33 /* AppleMusicTableViewCell.xib */,
+				7119811B22335A8C0024CA33 /* AppleMusicCollectionViewCell.swift */,
+				7119811C22335A8C0024CA33 /* AppleMusicCollectionViewCell.xib */,
 				7119810C223358770024CA33 /* Assets.xcassets */,
 				7119810E223358770024CA33 /* LaunchScreen.storyboard */,
 				71198111223358770024CA33 /* Info.plist */,
@@ -122,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7119811E22335A8C0024CA33 /* AppleMusicCollectionViewCell.xib in Resources */,
 				71198110223358770024CA33 /* LaunchScreen.storyboard in Resources */,
 				7119810D223358770024CA33 /* Assets.xcassets in Resources */,
+				7119811A223359CB0024CA33 /* AppleMusicTableViewCell.xib in Resources */,
+				7119812022335F1F0024CA33 /* back.jpg in Resources */,
 				7119810B223358750024CA33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71198108223358750024CA33 /* ViewController.swift in Sources */,
+				71198119223359CB0024CA33 /* AppleMusicTableViewCell.swift in Sources */,
 				71198106223358750024CA33 /* AppDelegate.swift in Sources */,
+				7119811D22335A8C0024CA33 /* AppleMusicCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
